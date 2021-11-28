@@ -1,0 +1,42 @@
+body{
+	padding:0px;
+	margin:0px;
+}
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+	width: 100vw;
+	background-color: #f82;
+	justify-content: space-around;
+	align-items:center
+}
+.navbar>span{
+	font-size: 20px;
+	cursor:pointer;
+	font-weight:700;
+}
+.home-text{
+	height: 50vh;
+	width:80%;
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+	font-size: 24px;
+	margin:100px;
+}
+#faculty>div{
+	border-color:black;
+	border-style:solid;
+	border-width:1px;
+	padding: 5px;
+	margin:10px
+}
+#course{
+	padding: 10px;
+}
